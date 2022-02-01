@@ -31,8 +31,13 @@ Default:
 
 html {
   /* Percentage of user's browser font-size setting */
+  /* Setting the font-size to 62.5% makes 1rem = 10px at the default browser size (16px) */
   font-size: 62.5%;
   font-family: '', sans-serif;
+}
+
+.container {
+  max-width: 96rem;
 }
 
 /* ************************************ */
@@ -40,7 +45,6 @@ html {
 /* ************************************ */
 
 .btn {
-
 }
 
 .logo {
@@ -154,4 +158,45 @@ nav ul li a{
 /* FOOTER */
 /* ************************************ */
 
+footer {
+  padding: 4.2rem;
+  background-image: url(images/bgk-footer.png);
+  color: #fff;
+}
 
+.upper-footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+}
+
+.upper-footer .info-group {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer .footer-nav {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.lower-footer .footer-nav li {
+  list-style: none;
+}
+
+.footer-contact .newsletter {
+  margin-bottom: 0.8rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.social-icons li {
+  list-style: none;
+}
