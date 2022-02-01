@@ -61,6 +61,30 @@ html {
 
 /* ************************************ */
 /* WATCH */
+
+.watch{
+  display: flex;
+  background-image: url(images/bgk-middle.png);
+  background-size: cover;
+  height: 553px;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.watch-text {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
 /* ************************************ */
 
 /* ************************************ */
@@ -70,7 +94,10 @@ html {
 /* ************************************ */
 /* TEAM */
 /* ************************************ */
+.team{
+  background-image: url();
 
+}
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
