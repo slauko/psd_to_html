@@ -44,12 +44,26 @@ html {
 }
 
 .logo {
-
+    display: flex;
 }
 
 /* ************************************ */
 /* NAV */
 /* ************************************ */
+.topbar{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
 
 /* ************************************ */
 /* HERO */
