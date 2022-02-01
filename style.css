@@ -103,13 +103,22 @@ footer {
   justify-content: space-between;
 }
 
-.lower-footer .newsletter {
-  margin-bottom: 2rem;
+.lower-footer .footer-nav {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.lower-footer .footer-nav li {
+  list-style: none;
+}
+
+.footer-contact .newsletter {
+  margin-bottom: 0.8rem;
 }
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .social-icons li {
