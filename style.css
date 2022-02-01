@@ -1,0 +1,5 @@
+.story-container {
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+}
