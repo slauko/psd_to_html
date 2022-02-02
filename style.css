@@ -218,15 +218,17 @@ nav ul li a:hover{
   width: 30rem;
   margin-right: 10rem;
 }
-.contact input{
+.contact input:not(.btn){
   display: flex;
   margin-top: 2rem;
   height: 3rem;
+  padding: 1rem;
 }
 .contact #message{
-  margin-top: 2rem;
+  margin: 2rem 0;
   height: 16rem;
   text-align: left;
+  padding: 1rem;
   resize: none;
 }
 .client{
