@@ -277,7 +277,6 @@ nav ul li a:hover{
 
 .team-cardbox {
   display: flex;
-  max-width: 960px;
 }
 
 .box {
