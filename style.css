@@ -111,6 +111,21 @@ nav ul li a{
 /* OUR STORY */
 /* ************************************ */
 
+.story-container {
+  display: inline-flex;
+}
+
+.story-content {
+  width: 50%;
+}
+
+.story-symbol {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
 /* ************************************ */
 /* WATCH */
 
