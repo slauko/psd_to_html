@@ -214,10 +214,12 @@ nav ul li a:hover{
 
 .team-cardbox {
   display: flex;
+  max-width: 960px;
 }
 
 .box {
   display: flex;
+  flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.199);
   width: 200px;
   height: 280px;
@@ -225,16 +227,32 @@ nav ul li a:hover{
   align-items: flex-end;
 }
 
+.team-img {
+  display: flex;
+  background-color: white;
+  width: 200px;
+  height: 220px;
+}
+
 .team-members {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
-  font-size: 18px;
   text-transform: uppercase;
   border-top: 1px solid rgba(255, 255, 255, 0.199);
   width: 200px;
   height: 60px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.jobtitle {
+  color: #8A8998;
 }
 
 .team-footer p {
@@ -249,14 +267,8 @@ nav ul li a:hover{
   border-radius: 5%;
   border: .5px solid;
   padding: 10px;
-
-
 }
 
-.team{
-  background-image: url();
-
-}
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
