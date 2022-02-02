@@ -16,6 +16,7 @@ Bold:
 --- COLORS
 Primary: 
 Tint: #00e0d0 or #88f1e9
+>>>>>>> master
 Greys: 
 
 --- BORDER-RADIUS
@@ -54,8 +55,8 @@ html {
   display: flex;
   width: 10rem;
   height: 2.5rem; 
-  color: aquamarine;
-  border: 1.5px solid aquamarine;
+  color: #00e0d0;
+  border: 1.5px solid #00e0d0;
   border-radius: 2px;
   background: none;
   text-align: center;
@@ -160,6 +161,41 @@ nav ul li a:hover{
 /* ************************************ */
 /* OUR STORY */
 /* ************************************ */
+
+.story-container {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  gap: 10px;
+}
+
+.story-symbol {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 260px;
+  width:55%
+  
+}
+
+.story-content input {
+  margin-top: 20px;
+}
+
+.story-content p {
+  padding: 5px;
+  width: 540px;
+  font-size: 1.4rem;
+}
+
 
 /* ************************************ */
 /* WATCH */
