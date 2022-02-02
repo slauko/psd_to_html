@@ -16,7 +16,11 @@ Bold:
 --- COLORS
 Primary: 
 Tint: #00e0d0 or #88f1e9
+<<<<<<< HEAD
+>>>>>>> master
+=======
 
+>>>>>>> dea6bb0268592420f74922942e18e6921d41d520
 Greys: 
 
 --- BORDER-RADIUS
@@ -218,8 +222,10 @@ nav ul li a:hover{
 
 .watch {
   display: flex;
+  flex-direction: column;
   background-image: url(images/bgk-middle.png);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 553px;
   justify-content: center;
   align-items: center;
@@ -233,7 +239,8 @@ nav ul li a:hover{
 }
 
 .watch-text {
-  font-size: 1rem;
+  display: flex;
+  font-size: 2rem;
   color: white;
   text-transform: uppercase;
   margin-top: 30px;
