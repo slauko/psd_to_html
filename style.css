@@ -337,6 +337,7 @@ nav ul li a:hover{
   display: flex;
   background-image: url(images/bgk-header.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 700px;
   align-items: center;
   justify-content: center;
@@ -360,6 +361,7 @@ nav ul li a:hover{
 
 .box {
   display: flex;
+  flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.199);
   width: 200px;
   height: 280px;
@@ -367,16 +369,32 @@ nav ul li a:hover{
   align-items: flex-end;
 }
 
+.team-img {
+  display: flex;
+  background-color: white;
+  width: 200px;
+  height: 220px;
+}
+
 .team-members {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
-  font-size: 18px;
   text-transform: uppercase;
   border-top: 1px solid rgba(255, 255, 255, 0.199);
   width: 200px;
   height: 60px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.jobtitle {
+  color: #8A8998;
 }
 
 .team-footer p {
