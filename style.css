@@ -16,7 +16,7 @@ Bold:
 --- COLORS
 Primary: 
 Tint: #00e0d0 or #88f1e9
->>>>>>> master
+
 Greys: 
 
 --- BORDER-RADIUS
@@ -53,13 +53,14 @@ html {
 
 .btn {
   display: flex;
-  width: 10rem;
-  height: 2.5rem; 
+  width: 12rem;
+  height: 3rem; 
   color: #00e0d0;
   border: 1.5px solid #00e0d0;
   border-radius: 2px;
   background: none;
   text-align: center;
+  line-height: 3rem;
   font-weight: bold;
   justify-content: center;
 }
@@ -78,7 +79,7 @@ html {
 }
 
 .logo-text{
-  background: -webkit-linear-gradient(0deg,aquamarine ,aquamarine ,rgb(115, 115, 255));
+  background: -webkit-linear-gradient(0deg,#00e0d0 ,#00e0d0 ,rgb(115, 115, 255));
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,6 +95,7 @@ header{
     display: flex;
     background-image: url("images/bgk-header.png");
     background-size: cover;
+    background-position: center;
     height: 670px;
     color: white;
     justify-content: center;
@@ -101,7 +103,7 @@ header{
 .special p{
   display: flex;
   justify-content: center;
-  color: aquamarine;
+  color: #00e0d0;
   padding-bottom: 1.5rem;
 }
 
@@ -152,10 +154,15 @@ nav ul li a:hover{
 }
 .hero h1{
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
 }
 .hero p{
     text-align: center; 
-}
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+  }
 .hero .btn{
     align-items: center;
 }
@@ -297,10 +304,6 @@ nav ul li a:hover{
 
 }
 
-.team{
-  background-image: url();
-
-}
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
@@ -315,8 +318,9 @@ nav ul li a:hover{
   padding-top: 5rem;
 }
 .contact-client-headlines{
-  font-size: large;
   font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
 }
 .contact {
   display: flex;
@@ -329,11 +333,15 @@ nav ul li a:hover{
   margin-top: 2rem;
   height: 3rem;
   padding: 1rem;
+  font-family: 'Roboto', serif;
+  font-weight: bolder;
 }
 .contact #message{
   margin: 2rem 0;
   height: 16rem;
   text-align: left;
+  font-family: 'Roboto', serif;
+  font-weight: bolder;
   padding: 1rem;
   resize: none;
 }
