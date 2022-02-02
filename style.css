@@ -249,6 +249,86 @@ nav ul li a:hover{
 /* ************************************ */
 /* EXPERTISE */
 /* ************************************ */
+.expertise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 750px;
+}
+
+.expertise-title {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.expertise-title h2 {
+  font-size: 2.2rem;
+  padding: 5px;
+}
+
+.expertise-title p {
+  font-size: 1.4rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  height: 85%; 
+  
+}
+
+.expertise-first-row {
+  display: flex;
+  border-bottom: 0.001px solid rgb(214, 209, 209);
+  height: 300px;
+  align-items: center;
+}
+
+.expertise-second-row {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.expertise-card {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.expertise-card img{
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.expertise-card h3, .expertise-card p {
+  text-align: center; 
+  width:200px;
+  margin: 2px;
+}
+
+.expertise-card h3 {
+  font-style: bold;
+}
+
+.expertise-card p {
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
 
 /* ************************************ */
 /* TEAM */
@@ -320,6 +400,15 @@ nav ul li a:hover{
 .team-footer p {
   color: white;
   margin-bottom: 10px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #32ffff;
+  color: #32ffff;
+  border-radius: 5%;
+  border: 0.5px solid;
+  padding: 10px;
 }
 
 /* ************************************ */
