@@ -45,6 +45,7 @@ html {
 
 .container {
   max-width: 96rem;
+  margin: 0 auto;
 }
 
 /* ************************************ */
@@ -64,23 +65,29 @@ html {
   justify-content: center;
 }
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   padding: 3rem 0;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.logo-text{
-  background: -webkit-linear-gradient(0deg,aquamarine ,aquamarine ,rgb(115, 115, 255));
+.logo > .logo-text {
+  background: -webkit-linear-gradient(
+    0deg,
+    aquamarine,
+    aquamarine,
+    rgb(115, 115, 255)
+  );
+  opacity: 0.8;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: medium;
+  font-size: 2.4rem;
   padding-left: 1rem;
 }
 
@@ -88,15 +95,15 @@ html {
 /* HEADER */
 /* ************************************ */
 
-header{
-    display: flex;
-    background-image: url("images/bgk-header.png");
-    background-size: cover;
-    height: 670px;
-    color: white;
-    justify-content: center;
+header {
+  display: flex;
+  background-image: url('images/bgk-header.png');
+  background-size: cover;
+  height: 670px;
+  color: white;
+  justify-content: center;
 }
-.special p{
+.special p {
   display: flex;
   justify-content: center;
   color: aquamarine;
@@ -107,35 +114,35 @@ header{
 /* NAV */
 /* ************************************ */
 
-.topbar{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    width: 100%;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
 }
 
-nav ul li{
-    display: flex;
-    align-items: center;
+nav ul li {
+  display: flex;
+  align-items: center;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: aquamarine;
   text-decoration: none;
 }
@@ -143,19 +150,19 @@ nav ul li a:hover{
 /* HERO */
 /* ************************************ */
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    padding-top: 200px;
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
 }
-.hero h1{
-    text-align: center;
+.hero h1 {
+  text-align: center;
 }
-.hero p{
-    text-align: center; 
+.hero p {
+  text-align: center;
 }
-.hero .btn{
-    align-items: center;
+.hero .btn {
+  align-items: center;
 }
 
 /* ************************************ */
@@ -201,7 +208,7 @@ nav ul li a:hover{
 /* WATCH */
 /* ************************************ */
 
-.watch{
+.watch {
   display: flex;
   background-image: url(images/bgk-middle.png);
   background-size: cover;
@@ -215,7 +222,6 @@ nav ul li a:hover{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
 }
 
 .watch-text {
@@ -253,7 +259,6 @@ nav ul li a:hover{
   color: white;
 }
 
-
 .team-cardbox {
   display: flex;
 }
@@ -286,13 +291,11 @@ nav ul li a:hover{
 
 .button {
   background-color: rgba(255, 255, 255, 0);
-  border-color:#32FFFF;
-  color: #32FFFF;
+  border-color: #32ffff;
+  color: #32ffff;
   border-radius: 5%;
-  border: .5px solid;
+  border: 0.5px solid;
   padding: 10px;
-
-
 }
 
 .team{
@@ -302,17 +305,17 @@ nav ul li a:hover{
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
-.contact-client-section{
+.contact-client-section {
   display: flex;
   justify-content: center;
-} 
-.contact-client{
+}
+.contact-client {
   display: flex;
   justify-content: space-between;
   height: 500px;
   padding-top: 5rem;
 }
-.contact-client-headlines{
+.contact-client-headlines {
   font-size: large;
   font-weight: bold;
 }
@@ -322,28 +325,28 @@ nav ul li a:hover{
   width: 30rem;
   margin-right: 10rem;
 }
-.contact input:not(.btn){
+.contact input:not(.btn) {
   display: flex;
   margin-top: 2rem;
   height: 3rem;
   padding: 1rem;
 }
-.contact #message{
+.contact #message {
   margin: 2rem 0;
   height: 16rem;
   text-align: left;
   padding: 1rem;
   resize: none;
 }
-.client{
+.client {
   display: flex;
   flex-direction: column;
 }
-.client-logos{
+.client-logos {
   display: grid;
   grid-template-columns: 19rem 19rem;
 }
-.client-logos img{
+.client-logos img {
   display: flex;
   max-width: 18rem;
   padding-top: 3rem;
@@ -360,14 +363,41 @@ footer {
   color: #fff;
 }
 
+footer h3 {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 1.4rem;
+  align-self: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
 .upper-footer {
   display: grid;
-  grid-template-columns: 2fr 2fr 3fr;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  column-gap: 3.2rem;
+  row-gap: 2rem;
+  margin-bottom: 4rem;
 }
 
 .upper-footer .info-group {
   display: flex;
   gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.upper-footer .info-group > img {
+  width: 1.8rem;
+  height: 100%;
+}
+
+.upper-footer p {
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 .lower-footer {
@@ -381,11 +411,31 @@ footer {
 }
 
 .lower-footer .footer-nav li {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
   list-style: none;
 }
 
 .footer-contact .newsletter {
-  margin-bottom: 0.8rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.footer-contact .newsletter input {
+  width: 100%;
+  margin-right: 1rem;
+  padding: 1rem 1.4rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+.footer-contact .newsletter .btn-subscribe {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .social-icons {
