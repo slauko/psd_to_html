@@ -9,7 +9,7 @@ Bold:
 
 --- COLORS
 Primary: 
-Tint: 
+Tint: #52c3c0
 Greys: 
 
 --- BORDER-RADIUS
@@ -45,6 +45,12 @@ html {
 /* ************************************ */
 
 .btn {
+  width: 120px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #52c3c0;
+  color: #52c3c0;
+  padding: 15px;
 }
 
 .logo {
@@ -112,19 +118,33 @@ nav ul li a{
 /* ************************************ */
 
 .story-container {
-  display: inline-flex;
-}
-
-.story-content {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  gap: 10px;
 }
 
 .story-symbol {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
   
 }
+
+.story-content p {
+  padding: 5px;
+  width: 50%;
+  font-size: 1.4rem;
+}
+}
+
+
 
 /* ************************************ */
 /* WATCH */
