@@ -45,24 +45,61 @@ html {
 /* ************************************ */
 
 .btn {
+  display: flex;
+  width: 10rem;
+  height: 2.5rem; 
+  color: aquamarine;
+  border: 1.5px solid aquamarine;
+  border-radius: 2px;
+  background: none;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
 }
 
 .logo {
     display: flex;
     align-items: center;
 }
+
+.logo-text{
+  background: -webkit-linear-gradient(0deg,aquamarine ,aquamarine ,rgb(115, 115, 255));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: medium;
+  padding-left: 1rem;
+}
+
 /* ************************************ */
 /* HEADER */
 /* ************************************ */
+
 header{
+    display: flex;
     background-image: url("images/bgk-header.png");
     background-size: cover;
     height: 670px;
     color: white;
+    justify-content: center;
 }
+.special p{
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+  padding-bottom: 1.5rem;
+}
+
 /* ************************************ */
 /* NAV */
 /* ************************************ */
+
 .topbar{
     display: flex;
     justify-content: space-around;
@@ -79,6 +116,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    width: 100%;
 }
 
 nav ul li{
@@ -88,11 +126,16 @@ nav ul li{
 
 nav ul li a{
     color: white;
-    
+    text-decoration: none;
+}
+nav ul li a:hover{
+  color: aquamarine;
+  text-decoration: none;
 }
 /* ************************************ */
 /* HERO */
 /* ************************************ */
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -107,12 +150,14 @@ nav ul li a{
 .hero .btn{
     align-items: center;
 }
+
 /* ************************************ */
 /* OUR STORY */
 /* ************************************ */
 
 /* ************************************ */
 /* WATCH */
+/* ************************************ */
 
 .watch{
   display: flex;
@@ -137,7 +182,6 @@ nav ul li a{
   text-transform: uppercase;
   margin-top: 30px;
 }
-/* ************************************ */
 
 /* ************************************ */
 /* EXPERTISE */
@@ -146,6 +190,7 @@ nav ul li a{
 /* ************************************ */
 /* TEAM */
 /* ************************************ */
+
 .team{
   background-image: url();
 
@@ -153,13 +198,61 @@ nav ul li a{
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
-
+.contact-client-section{
+  display: flex;
+  justify-content: center;
+} 
+.contact-client{
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 5rem;
+}
+.contact-client-headlines{
+  font-size: large;
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-right: 10rem;
+}
+.contact input:not(.btn){
+  display: flex;
+  margin-top: 2rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.contact #message{
+  margin: 2rem 0;
+  height: 16rem;
+  text-align: left;
+  padding: 1rem;
+  resize: none;
+}
+.client{
+  display: flex;
+  flex-direction: column;
+}
+.client-logos{
+  display: grid;
+  grid-template-columns: 19rem 19rem;
+}
+.client-logos img{
+  display: flex;
+  max-width: 18rem;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  align-self: flex-end;
+}
 /* ************************************ */
 /* FOOTER */
 /* ************************************ */
 footer {
   padding: 4.2rem;
   background-image: url(images/bgk-footer.png);
+  background-size: cover;
   color: #fff;
 }
 
