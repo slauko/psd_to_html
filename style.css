@@ -65,15 +65,10 @@ html {
   font-weight: bold;
   justify-content: center;
 }
-<<<<<<< HEAD
 .btn:hover{
   cursor: pointer;
 }
 .btn-container{
-=======
-
-.btn-container {
->>>>>>> master
   display: flex;
   justify-content: center;
   padding: 3rem 0;
@@ -84,7 +79,6 @@ html {
   align-items: center;
 }
 
-<<<<<<< HEAD
 .logo-text{
   background: -webkit-linear-gradient(0deg,#00e0d0 ,#00e0d0 ,rgb(115, 115, 255));
   background-clip: border-box;
@@ -93,20 +87,6 @@ html {
   font-family: 'Roboto', serif;
   font-weight: 200;
   font-size: 3rem;
-=======
-.logo > .logo-text {
-  background: -webkit-linear-gradient(
-    0deg,
-    aquamarine,
-    aquamarine,
-    rgb(115, 115, 255)
-  );
-  opacity: 0.8;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2.4rem;
->>>>>>> master
   padding-left: 1rem;
 }
 
@@ -114,7 +94,6 @@ html {
 /* HEADER */
 /* ************************************ */
 
-<<<<<<< HEAD
 header{
     display: flex;
     background-image: url("images/bgk-header.png");
@@ -123,15 +102,6 @@ header{
     height: 670px;
     color: white;
     justify-content: center;
-=======
-header {
-  display: flex;
-  background-image: url('images/bgk-header.png');
-  background-size: cover;
-  height: 670px;
-  color: white;
-  justify-content: center;
->>>>>>> master
 }
 .special p {
   display: flex;
@@ -168,7 +138,6 @@ nav ul li {
   align-items: center;
 }
 
-<<<<<<< HEAD
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -178,14 +147,6 @@ nav ul li a{
 }
 nav ul li a:hover{
   color: #00e0d0;
-=======
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-nav ul li a:hover {
-  color: aquamarine;
->>>>>>> master
   text-decoration: none;
 }
 /* ************************************ */
@@ -197,7 +158,6 @@ nav ul li a:hover {
   flex-direction: column;
   padding-top: 200px;
 }
-<<<<<<< HEAD
 .hero h1{
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -211,16 +171,6 @@ nav ul li a:hover {
   }
 .hero .btn{
     align-items: center;
-=======
-.hero h1 {
-  text-align: center;
-}
-.hero p {
-  text-align: center;
-}
-.hero .btn {
-  align-items: center;
->>>>>>> master
 }
 
 /* ************************************ */
@@ -369,12 +319,7 @@ nav ul li a:hover {
   height: 500px;
   padding-top: 5rem;
 }
-<<<<<<< HEAD
 .contact-client-headlines{
-=======
-.contact-client-headlines {
-  font-size: large;
->>>>>>> master
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
