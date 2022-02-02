@@ -83,7 +83,9 @@ html {
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: medium;
+  font-family: 'Roboto', serif;
+  font-weight: 200;
+  font-size: 3rem;
   padding-left: 1rem;
 }
 
@@ -138,6 +140,9 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 1.2rem;
 }
 nav ul li a:hover{
   color: #00e0d0;
@@ -334,14 +339,12 @@ nav ul li a:hover{
   height: 3rem;
   padding: 1rem;
   font-family: 'Roboto', serif;
-  font-weight: bolder;
 }
 .contact #message{
   margin: 2rem 0;
   height: 16rem;
   text-align: left;
   font-family: 'Roboto', serif;
-  font-weight: bolder;
   padding: 1rem;
   resize: none;
 }
