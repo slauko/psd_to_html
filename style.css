@@ -79,7 +79,7 @@ html {
   align-items: center;
 }
 
-.logo-text{
+.logo > .logo-text {
   background: -webkit-linear-gradient(0deg,#00e0d0 ,#00e0d0 ,rgb(115, 115, 255));
   background-clip: border-box;
   -webkit-background-clip: text;
