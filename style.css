@@ -112,8 +112,10 @@ nav ul li a{
 
 .watch{
   display: flex;
+  flex-direction: column;
   background-image: url(images/bgk-middle.png);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 553px;
   justify-content: center;
   align-items: center;
@@ -124,11 +126,12 @@ nav ul li a{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
 }
 
 .watch-text {
-  font-size: 1rem;
+  display: flex;
+
+  font-size: 2rem;
   color: white;
   text-transform: uppercase;
   margin-top: 30px;
