@@ -265,6 +265,7 @@ nav ul li a:hover{
   align-items: center;
   margin-top: 40px;
   font-size: 22px;
+  margin-bottom: 40px;
 }
 
 .expertise-title h2 {
@@ -286,20 +287,28 @@ nav ul li a:hover{
 .expertise-first-row {
   display: flex;
   border-bottom: 0.001px solid rgb(214, 209, 209);
-  height: 300px;
+  height: 250px;
   align-items: center;
+}
+
+.expertise-card:nth-child(2){
+  border-right: 0.0011px solid rgb(214, 209, 209);
+}
+.expertise-card:nth-child(1){
+  border-right: 0.001px solid rgb(214, 209, 209);
 }
 
 .expertise-second-row {
   display: flex;
-  height: 300px;
+  height: 250px;
   align-items: center;
+  margin-bottom:40px;
 }
 
 .expertise-card {
   display: flex;
   flex-direction: column;
-  height: 100px;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding: 75px;
