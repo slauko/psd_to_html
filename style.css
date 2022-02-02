@@ -1,6 +1,12 @@
 /*
 
 --- FONT SIZES (px)
+---FONTS
+[HammersmithOne]
+Playfair Display
+Roboto
+
+
 
 
 --- FONT WEIGHTS
@@ -9,7 +15,7 @@ Bold:
 
 --- COLORS
 Primary: 
-Tint: 
+Tint: #00e0d0 or #88f1e9
 Greys: 
 
 --- BORDER-RADIUS
@@ -253,6 +259,10 @@ nav ul li a:hover{
 
 }
 
+.team{
+  background-image: url();
+
+}
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
