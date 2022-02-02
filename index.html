@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,7 +38,7 @@
             <div class = "hero">
                 <h1>We Are Awesome Creative Agency</h1>
                 <div class=special>
-                    <p>_________</p>
+                    <p>_______</p>
                 </div>
                 <p>
                     This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
@@ -68,7 +72,7 @@
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos.
           </p>
-          <button>LEARN MORE</button>
+          <input class="btn" type="button" value="LEARN MORE">
         </div>
       </div>
     </section>
@@ -76,9 +80,11 @@
     <section class="watch">
         <div class="watch-img">
             <img src=images/png/play.png alt="playbutton" />
-        <div class="watch-text">
-            <p>Watch our story</p>
         </div>
+        <div>
+            <div class="watch-text">
+                <p>Watch our story</p>
+            </div>
         </div>
     </section>
 
@@ -220,19 +226,19 @@
     <!-- FOOTER -->
     <footer>
         <!-- Upper Footer -->
-        <div class="upper-footer">
+        <div class="upper-footer container">
             <!-- About -->
+            <div class="logo">
+                <img src="images/png/logo.png" alt="">
+                <p class="logo-text">tajam</p>
+            </div>
             <div class="footer-about">
-                <div class="logo">
-                    <img src="images/png/logo.png" alt="">
-                    <p class="logo-text">tajam</p>
-                </div>
                 <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
             </div>
 
             <!-- Our Studio -->
+            <h3>Our Studio</h3>
             <div class="footer-studio">
-                <h3>Our Studio</h3>
                 <div class="info-group">
                     <img src="images/png/big104.png" alt="">
                     <p>Ruko cucruk, Jl. Radio luar dalem jos No. 12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>                        
@@ -244,11 +250,11 @@
             </div>
 
             <!-- Stay in Touch -->
+            <h3>Stay in Touch</h3>
             <div class="footer-contact">
-                <h3>Stay in Touch</h3>
                 <div class="newsletter">
-                    <input type="text">
-                    <a href="#">
+                    <input type="text" placeholder="Subscribe our newsletter">
+                    <a class="btn-subscribe" href="#">
                         <img src="images/png/paper122.png" alt="">
                     </a>
                 </div>
@@ -264,7 +270,7 @@
         </div>
 
         <!-- Lower Footer -->
-        <div class="lower-footer">
+        <div class="lower-footer container">
             <ul class="footer-nav">
                 <li>Help</li>
                 <li>Terms & Conditions</li>
