@@ -171,20 +171,28 @@ nav ul li a:hover{
 }
 
 .story-symbol {
-  width: 40%;
+  width: 45%;
   display: flex;
   justify-content: flex-end;
+  padding: 50px;
 }
 
 .story-content {
   display: flex;
   flex-direction: column;
+  padding: 50px;
+  height: 260px;
+  width:55%
   
+}
+
+.story-content input {
+  margin-top: 20px;
 }
 
 .story-content p {
   padding: 5px;
-  width: 50%;
+  width: 540px;
   font-size: 1.4rem;
 }
 
