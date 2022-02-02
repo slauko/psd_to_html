@@ -52,6 +52,9 @@ html {
   border: 1.5px solid aquamarine;
   border-radius: 2px;
   background: none;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .btn-container{
@@ -73,6 +76,7 @@ html {
   font-size: medium;
   padding-left: 1rem;
 }
+
 /* ************************************ */
 /* HEADER */
 /* ************************************ */
@@ -194,7 +198,52 @@ nav ul li a:hover{
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
-
+.contact-client-section{
+  display: flex;
+  justify-content: center;
+} 
+.contact-client{
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 5rem;
+}
+.contact-client-headlines{
+  font-size: large;
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-right: 10rem;
+}
+.contact input{
+  display: flex;
+  margin-top: 2rem;
+  height: 3rem;
+}
+.contact #message{
+  margin-top: 2rem;
+  height: 16rem;
+  text-align: left;
+  resize: none;
+}
+.client{
+  display: flex;
+  flex-direction: column;
+}
+.client-logos{
+  display: grid;
+  grid-template-columns: 19rem 19rem;
+}
+.client-logos img{
+  display: flex;
+  max-width: 18rem;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  align-self: flex-end;
+}
 /* ************************************ */
 /* FOOTER */
 /* ************************************ */
