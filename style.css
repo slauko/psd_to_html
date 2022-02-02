@@ -56,7 +56,9 @@ html {
   font-weight: bold;
   justify-content: center;
 }
-
+.btn:hover{
+  cursor: pointer;
+}
 .btn-container{
   display: flex;
   justify-content: center;
