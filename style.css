@@ -267,10 +267,18 @@ nav ul li a:hover{
 .expertise-title h2 {
   font-size: 2.2rem;
   padding: 5px;
+  font-family: Playfair Display;
 }
 
 .expertise-title p {
-  font-size: 1.4rem;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.separator p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
 .cards-container {
@@ -320,14 +328,17 @@ nav ul li a:hover{
   text-align: center; 
   width:200px;
   margin: 2px;
+  font-family: Roboto;
 }
 
 .expertise-card h3 {
-  font-style: bold;
+  margin-bottom: 10px;
+ 
 }
 
 .expertise-card p {
   font-size: 1.4rem;
+  font-weight: 100;
 }
 
 /* ************************************ */
