@@ -182,10 +182,11 @@ nav ul li a:hover{
   height: 400px;
   align-items: center;
   gap: 10px;
+ 
 }
 
 .story-symbol {
-  width: 45%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
   padding: 50px;
@@ -194,20 +195,29 @@ nav ul li a:hover{
 .story-content {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding-top: 10px;
+  padding-left: 40px;
   height: 260px;
-  width:55%
-  
+  width: 60%;
 }
 
 .story-content input {
   margin-top: 20px;
 }
 
+.story-content h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
 .story-content p {
-  padding: 5px;
+  padding-top: 10px;
   width: 540px;
   font-size: 1.4rem;
+  font-family: Roboto;
+  font-weight: 100;
+  line-height: 18px;
 }
 
 
@@ -271,7 +281,7 @@ nav ul li a:hover{
 }
 
 .expertise-title p {
-  font-family: Plafair Display;
+  font-family: Playfair Display;
   font-weight: 400;
 }
 
