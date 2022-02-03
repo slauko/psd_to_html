@@ -292,8 +292,9 @@ nav ul li a:hover{
 }
 
 .expertise-card:nth-child(2){
-  border-right: 0.0011px solid rgb(214, 209, 209);
+  border-right: 0.001px solid rgb(214, 209, 209);
 }
+
 .expertise-card:nth-child(1){
   border-right: 0.001px solid rgb(214, 209, 209);
 }
@@ -332,12 +333,6 @@ nav ul li a:hover{
 .expertise-card p {
   font-size: 1.4rem;
 }
-
-
-
-
-
-
 
 /* ************************************ */
 /* TEAM */
