@@ -236,6 +236,7 @@ nav ul li a:hover{
 .watch-text {
   display: flex;
   font-size: 2rem;
+  font-weight: bold;
   color: white;
   text-transform: uppercase;
   margin-top: 30px;
@@ -340,14 +341,27 @@ nav ul li a:hover{
   text-align: center;
 }
 
+.team-header {
+  padding-bottom: 30px;
+}
+
 .team-header h3 {
-  font-size: 2.5rem;
+  font-family: 'playfair-display';
+  font-size: 1.8rem;
   color: white;
   text-transform: uppercase;
 }
 
-.team-header p {
-  color: white;
+.team-header-text {
+  font-family: 'playfair-display';
+  color: white; 
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.team-underline {
+  color:rgba(255, 255, 255, 0.116);
+  font-weight: bolder;
 }
 
 .team-cardbox {
@@ -360,14 +374,13 @@ nav ul li a:hover{
   border: 1px solid rgba(255, 255, 255, 0.199);
   width: 200px;
   height: 280px;
-  margin: 20px;
+  margin: 18px;
   align-items: flex-end;
 }
 
 .team-img {
-  display: flex;
   background-color: white;
-  width: 200px;
+  width: 199px;
   height: 220px;
 }
 
@@ -394,17 +407,9 @@ nav ul li a:hover{
 
 .team-footer p {
   color: white;
-  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
-.button {
-  background-color: rgba(255, 255, 255, 0);
-  border-color: #32ffff;
-  color: #32ffff;
-  border-radius: 5%;
-  border: 0.5px solid;
-  padding: 10px;
-}
 
 /* ************************************ */
 /* CONTACT-CLIENT */
