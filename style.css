@@ -53,8 +53,8 @@ html {
 
 .btn {
   display: flex;
-  width: 12rem;
-  height: 3rem; 
+  width: 14rem;
+  height: 4rem; 
   color: #00e0d0;
   border: 1.5px solid #00e0d0;
   border-radius: 2px;
@@ -420,7 +420,7 @@ nav ul li a:hover{
 }
 .contact-client {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 500px;
   padding-top: 5rem;
 }
@@ -432,8 +432,8 @@ nav ul li a:hover{
 .contact {
   display: flex;
   flex-direction: column;
-  width: 30rem;
-  margin-right: 10rem;
+  width: 35rem;
+  /* margin-right: 10rem; */
 }
 .contact input:not(.btn) {
   display: flex;
