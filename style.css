@@ -53,8 +53,8 @@ html {
 
 .btn {
   display: flex;
-  width: 12rem;
-  height: 3rem; 
+  width: 14rem;
+  height: 4rem; 
   color: #00e0d0;
   border: 1.5px solid #00e0d0;
   border-radius: 2px;
@@ -182,10 +182,11 @@ nav ul li a:hover{
   height: 400px;
   align-items: center;
   gap: 10px;
+ 
 }
 
 .story-symbol {
-  width: 45%;
+  width: 42%;
   display: flex;
   justify-content: flex-end;
   padding: 50px;
@@ -194,20 +195,29 @@ nav ul li a:hover{
 .story-content {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding-top: 10px;
+  padding-left: 40px;
   height: 260px;
-  width:55%
-  
+  width: 58%;
 }
 
 .story-content input {
   margin-top: 20px;
 }
 
+.story-content h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
 .story-content p {
-  padding: 5px;
+  padding-top: 10px;
   width: 540px;
   font-size: 1.4rem;
+  font-family: Roboto;
+  font-weight: 100;
+  line-height: 18px;
 }
 
 
@@ -261,15 +271,25 @@ nav ul li a:hover{
   align-items: center;
   margin-top: 40px;
   font-size: 22px;
+  margin-bottom: 40px;
 }
 
 .expertise-title h2 {
   font-size: 2.2rem;
   padding: 5px;
+  font-family: 'Playfair Display', serif;
 }
 
 .expertise-title p {
+  font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#seperator {
+  display: flex;
+  justify-content: center;
+  font-family: '', sans-serif;
 }
 
 .cards-container {
@@ -282,20 +302,29 @@ nav ul li a:hover{
 .expertise-first-row {
   display: flex;
   border-bottom: 0.001px solid rgb(214, 209, 209);
-  height: 300px;
+  height: 250px;
   align-items: center;
+}
+
+.expertise-card:nth-child(2){
+  border-right: 0.001px solid rgb(214, 209, 209);
+}
+
+.expertise-card:nth-child(1){
+  border-right: 0.001px solid rgb(214, 209, 209);
 }
 
 .expertise-second-row {
   display: flex;
-  height: 300px;
+  height: 250px;
   align-items: center;
+  margin-bottom:40px;
 }
 
 .expertise-card {
   display: flex;
   flex-direction: column;
-  height: 100px;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding: 75px;
@@ -310,21 +339,17 @@ nav ul li a:hover{
   text-align: center; 
   width:200px;
   margin: 2px;
+  font-family: Roboto;
 }
 
 .expertise-card h3 {
-  font-style: bold;
+  margin-bottom: 10px;
 }
 
 .expertise-card p {
   font-size: 1.4rem;
+  font-weight: 100;
 }
-
-
-
-
-
-
 
 /* ************************************ */
 /* TEAM */
@@ -420,7 +445,7 @@ nav ul li a:hover{
 }
 .contact-client {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 500px;
   padding-top: 5rem;
 }
@@ -432,8 +457,8 @@ nav ul li a:hover{
 .contact {
   display: flex;
   flex-direction: column;
-  width: 30rem;
-  margin-right: 10rem;
+  width: 35rem;
+  /* margin-right: 10rem; */
 }
 .contact input:not(.btn) {
   display: flex;
