@@ -186,7 +186,7 @@ nav ul li a:hover{
 }
 
 .story-symbol {
-  width: 40%;
+  width: 42%;
   display: flex;
   justify-content: flex-end;
   padding: 50px;
@@ -198,7 +198,7 @@ nav ul li a:hover{
   padding-top: 10px;
   padding-left: 40px;
   height: 260px;
-  width: 60%;
+  width: 58%;
 }
 
 .story-content input {
