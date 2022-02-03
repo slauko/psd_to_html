@@ -277,18 +277,19 @@ nav ul li a:hover{
 .expertise-title h2 {
   font-size: 2.2rem;
   padding: 5px;
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
 }
 
 .expertise-title p {
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
-.separator p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  font-weight: 100;
+#seperator {
+  display: flex;
+  justify-content: center;
+  font-family: '', sans-serif;
 }
 
 .cards-container {
