@@ -10,6 +10,27 @@ instead, 1rem = 1em = 16px */
 
 /* 1200px / 16px = 75 */
 @media (max-width: 75em) {
+  /* GENERAL */
+
+  /* REUSABLE COMPONENTS/STYLES */
+
+  /* HEADER */
+
+  /* NAV */
+
+  /* HERO */
+
+  /* OUR STORY */
+
+  /* WATCH */
+
+  /* EXPERTISE */
+
+  /* TEAM */
+
+  /* CONTACT-CLIENT */
+
+  /* FOOTER */
 }
 
 /**************************************/
@@ -18,7 +39,27 @@ instead, 1rem = 1em = 16px */
 
 /* 992px / 16px = 62 */
 @media (max-width: 62em) {
-  
+  /* GENERAL */
+
+  /* REUSABLE COMPONENTS/STYLES */
+
+  /* HEADER */
+
+  /* NAV */
+
+  /* HERO */
+
+  /* OUR STORY */
+
+  /* WATCH */
+
+  /* EXPERTISE */
+
+  /* TEAM */
+
+  /* CONTACT-CLIENT */
+
+  /* FOOTER */
 }
 
 /**************************************/
@@ -27,5 +68,25 @@ instead, 1rem = 1em = 16px */
 
 /* 768px / 16px = 48 */
 @media (max-width: 48em) {
-  
+  /* GENERAL */
+
+  /* REUSABLE COMPONENTS/STYLES */
+
+  /* HEADER */
+
+  /* NAV */
+
+  /* HERO */
+
+  /* OUR STORY */
+
+  /* WATCH */
+
+  /* EXPERTISE */
+
+  /* TEAM */
+
+  /* CONTACT-CLIENT */
+
+  /* FOOTER */
 }
