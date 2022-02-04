@@ -82,7 +82,7 @@ html {
   background: -webkit-linear-gradient(
     0deg,
     #00e0d0,
-    #00e0d0,
+    #51f0e5,
     rgb(115, 115, 255)
   );
   background-clip: border-box;
@@ -190,7 +190,7 @@ nav ul li a:hover {
 }
 
 .story-symbol {
-  width: 42%;
+  /* width: 42%; */
   display: flex;
   justify-content: flex-end;
   padding: 50px;
@@ -202,7 +202,7 @@ nav ul li a:hover {
   padding-top: 10px;
   padding-left: 40px;
   height: 260px;
-  width: 58%;
+  /* width: 58%; */
 }
 
 .story-content input {
