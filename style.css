@@ -176,10 +176,10 @@ nav ul li a:hover{
 /* OUR STORY */
 /* ************************************ */
 
-.story-container {
+.container--story {
   display: flex;
-  justify-content: center;
-  height: 400px;
+  /* justify-content: center; */
+  height: 40rem;
   align-items: center;
   gap: 10px;
  

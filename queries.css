@@ -36,6 +36,11 @@ instead, 1rem = 1em = 16px */
   /* CONTACT-CLIENT */
 
   /* FOOTER */
+  .upper-footer {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr;
+    grid-auto-flow: row;
+  }
 }
 
 /**************************************/
