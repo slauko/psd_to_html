@@ -271,23 +271,23 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 750px;
+  /* height: 750px; */
 }
 
 .expertise-title {
-  height: 10%;
+  /* height: 10%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
-  font-size: 22px;
-  margin-bottom: 40px;
+  margin-top: 4rem;
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
 }
 
 .expertise-title h2 {
   font-size: 2.2rem;
-  padding: 5px;
+  padding: 0.5rem;
   font-family: "Playfair Display", serif;
 }
 
@@ -306,14 +306,16 @@ nav ul li a:hover {
 .cards-container {
   display: flex;
   flex-direction: column;
-  height: 85%;
+  /* height: 85%; */
 }
 
 .expertise-first-row {
   display: flex;
   border-bottom: 0.001px solid rgb(214, 209, 209);
-  height: 250px;
+  /* height: 250px; */
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .expertise-card:nth-child(-n + 2) {
@@ -322,29 +324,33 @@ nav ul li a:hover {
 
 .expertise-second-row {
   display: flex;
-  height: 250px;
+  /* height: 250px; */
   align-items: center;
-  margin-bottom: 40px;
+  justify-content: center;
+  margin-bottom: 10rem;
+  flex-wrap: wrap;
 }
 
 .expertise-card {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
   justify-content: center;
   align-items: center;
-  padding: 75px;
+  padding: 8rem;
+  min-width: 15rem;
+  max-width: 35rem;
 }
 
 .expertise-card img {
-  height: 50px;
-  margin-bottom: 20px;
+  min-height: 5rem;
+  margin-bottom: 2rem;
 }
 
 .expertise-card h3,
 .expertise-card p {
   text-align: center;
-  width: 200px;
+  min-width: 20rem;
   margin: 2px;
   font-family: Roboto;
 }
@@ -597,4 +603,12 @@ footer p {
 
 .lower-footer .copyright {
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1065px) {
+  .expertise-first-row,
+  .expertise-second-row,
+  .expertise-card:nth-child(-n + 2) {
+    border: none;
+  }
 }
