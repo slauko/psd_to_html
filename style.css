@@ -153,6 +153,7 @@ nav ul li a:hover {
   color: #00e0d0;
   text-decoration: none;
 }
+
 /* ************************************ */
 /* HERO */
 /* ************************************ */
@@ -183,14 +184,14 @@ nav ul li a:hover {
 
 .container--story {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   height: 40rem;
   align-items: center;
   gap: 10px;
 }
 
 .story-symbol {
-  /* width: 42%; */
+  width: 42%;
   display: flex;
   justify-content: flex-end;
   padding: 50px;
@@ -202,7 +203,7 @@ nav ul li a:hover {
   padding-top: 10px;
   padding-left: 40px;
   height: 260px;
-  /* width: 58%; */
+  width: 58%;
 }
 
 .story-content input {
@@ -353,6 +354,7 @@ nav ul li a:hover {
 /* ************************************ */
 /* TEAM */
 /* ************************************ */
+
 .team {
   display: flex;
   background-image: url(images/bgk-header.png);
@@ -437,27 +439,31 @@ nav ul li a:hover {
 /* ************************************ */
 /* CONTACT-CLIENT */
 /* ************************************ */
+
 .contact-client-section {
   display: flex;
   justify-content: center;
 }
+
 .contact-client {
   display: flex;
   justify-content: space-around;
   height: 500px;
   padding-top: 5rem;
 }
+
 .contact-client-headlines {
   font-weight: bold;
   font-family: "Playfair Display", serif;
   font-size: 2rem;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
   width: 35rem;
-  /* margin-right: 10rem; */
 }
+
 .contact input:not(.btn) {
   display: flex;
   margin-top: 2rem;
@@ -465,6 +471,7 @@ nav ul li a:hover {
   padding: 1rem;
   font-family: "Roboto", serif;
 }
+
 .contact #message {
   margin: 2rem 0;
   height: 16rem;
@@ -473,14 +480,17 @@ nav ul li a:hover {
   padding: 1rem;
   resize: none;
 }
+
 .client {
   display: flex;
   flex-direction: column;
 }
+
 .client-logos {
   display: grid;
   grid-template-columns: 19rem 19rem;
 }
+
 .client-logos img {
   display: flex;
   max-width: 18rem;
@@ -488,6 +498,7 @@ nav ul li a:hover {
   padding-right: 5rem;
   align-self: flex-end;
 }
+
 /* ************************************ */
 /* FOOTER */
 /* ************************************ */
