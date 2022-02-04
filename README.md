@@ -2,8 +2,8 @@
 
 a simple group task, trying to rebuild a given website(design only, no functionality)
 
-our result: 
+our result: <br /> 
 https://slauko.github.io/psd_to_html/
 
-given preview:
+given preview: <br />
 ![Preview](/images/design.jpg)
