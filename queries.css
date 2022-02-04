@@ -11,6 +11,11 @@ instead, 1rem = 1em = 16px */
 /* 1200px / 16px = 75 */
 @media (max-width: 75em) {
   /* GENERAL */
+  .container {
+    width: auto;
+    max-width: 96rem;
+    margin: 0 3.2rem;
+  }
 
   /* REUSABLE COMPONENTS/STYLES */
 
@@ -40,6 +45,8 @@ instead, 1rem = 1em = 16px */
 /* 992px / 16px = 62 */
 @media (max-width: 62em) {
   /* GENERAL */
+  .container {
+  }
 
   /* REUSABLE COMPONENTS/STYLES */
 
@@ -69,6 +76,35 @@ instead, 1rem = 1em = 16px */
 /* 768px / 16px = 48 */
 @media (max-width: 48em) {
   /* GENERAL */
+  .container {
+  }
+
+  /* REUSABLE COMPONENTS/STYLES */
+
+  /* HEADER */
+
+  /* NAV */
+
+  /* HERO */
+
+  /* OUR STORY */
+
+  /* WATCH */
+
+  /* EXPERTISE */
+
+  /* TEAM */
+
+  /* CONTACT-CLIENT */
+
+  /* FOOTER */
+}
+
+/* 576px / 16px = 36 */
+@media (max-width: 36em) {
+  /* GENERAL */
+  .container {
+  }
 
   /* REUSABLE COMPONENTS/STYLES */
 
