@@ -18,7 +18,64 @@ instead, 1rem = 1em = 16px */
 
 /* 992px / 16px = 62 */
 @media (max-width: 62em) {
-  
+  /****************************/
+  /*      Our Story           */
+  /****************************/
+
+  .story-container {
+    display: table;
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 55px;
+    height: fit-content;
+  }
+  .story-symbol {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .story-content {
+    margin: 0 auto;
+    height: fit-content;
+    padding: 0;
+  }
+  .story-content input {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .story-content h2 {
+    margin: 0 auto;
+  }
+  .story-content p {
+    text-align: center;
+  }
+
+  /*****************************************/
+  /*           EXPERTISE                   */
+  /*****************************************/
+  .expertise-container {
+    height: fit-content;
+  }
+  .cards-container {
+    flex-direction: row;
+    height: fit-content;
+  }
+  .expertise-first-row {
+    display: table;
+    height: fit-content;
+    border-bottom: 0.001px solid transparent;
+  }
+
+  .expertise-second-row {
+    display: table;
+    height: fit-content;
+  }
+  .expertise-card:nth-child(3) {
+    border-right: 0.001px solid rgb(214, 209, 209);
+    border-bottom: 0.001px solid transparent;
+  }
+  .rightRowitems {
+    border-right: 0.001px solid transparent !important;
+  }
 }
 
 /**************************************/
@@ -27,5 +84,4 @@ instead, 1rem = 1em = 16px */
 
 /* 768px / 16px = 48 */
 @media (max-width: 48em) {
-  
 }
