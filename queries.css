@@ -18,7 +18,157 @@ instead, 1rem = 1em = 16px */
 
 /* 992px / 16px = 62 */
 @media (max-width: 62em) {
-  
+  /****************************/
+  /*         Header           */
+  /****************************/
+
+  .logo {
+    padding-left: 5%;
+  }
+
+  .topbar {
+    justify-content: space-between;
+  }
+
+  nav {
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+  }
+
+  nav > ul {
+    display: block;
+    overflow: hidden;
+    width: fit-content;
+    padding: 0 0.5rem;
+    max-height: 1.5rem;
+  }
+  nav > ul > li {
+    justify-content: end;
+  }
+
+  .hero {
+    padding: 2rem;
+    padding-top: 200px;
+  }
+
+  /****************************/
+  /*      Our Story           */
+  /****************************/
+
+  .story-container {
+    display: table;
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 55px;
+    height: fit-content;
+  }
+  .story-symbol {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .story-content {
+    margin: 0 auto;
+    height: fit-content;
+    padding: 0;
+  }
+  .story-content input {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .story-content h2 {
+    margin: 0 auto;
+  }
+  .story-content p {
+    text-align: center;
+  }
+
+  /****************************/
+  /*      Expertise           */
+  /****************************/
+  .expertise-container {
+    height: fit-content;
+  }
+  .cards-container {
+    flex-direction: row;
+    height: fit-content;
+  }
+  .expertise-first-row {
+    display: table;
+    height: fit-content;
+    border-bottom: 0.001px solid transparent;
+  }
+
+  .expertise-second-row {
+    display: table;
+    height: fit-content;
+  }
+  .expertise-card {
+    padding: 2rem;
+  }
+  .expertise-card:nth-child(3) {
+    border-right: 0.001px solid rgb(214, 209, 209);
+    border-bottom: 0.001px solid transparent;
+  }
+  .rightRowitems {
+    border-right: 0.001px solid transparent !important;
+  }
+
+  /****************************/
+  /*         Team             */
+  /****************************/
+
+  .team {
+    padding-top: 2rem;
+    height: fit-content;
+  }
+
+  .team-cardbox {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  /****************************/
+  /*         Contact Client   */
+  /****************************/
+
+  .contact-client {
+    display: block;
+  }
+  .contactResponsiveM {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .client-logos img {
+    align-self: center;
+    padding: 2rem;
+  }
+  .contact-client {
+    height: fit-content;
+  }
+
+  /****************************/
+  /*         Footer           */
+  /****************************/
+  .upper-footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    max-width: 100%;
+  }
+  .footer-contact .newsletter input {
+    width: 50%;
+  }
+  .footer-nav {
+    max-width: 25%;
+  }
+  .footer-nav > li {
+    text-align: center;
+  }
+  .lower-footer {
+    max-width: 100%;
+  }
 }
 
 /**************************************/
@@ -27,5 +177,4 @@ instead, 1rem = 1em = 16px */
 
 /* 768px / 16px = 48 */
 @media (max-width: 48em) {
-  
 }

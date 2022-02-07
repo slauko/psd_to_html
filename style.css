@@ -39,7 +39,7 @@ html {
   /* Percentage of user's browser font-size setting */
   /* Setting the font-size to 62.5% makes 1rem = 10px at the default browser size (16px) */
   font-size: 62.5%;
-  font-family: '', sans-serif;
+  font-family: "", sans-serif;
 }
 
 .container {
@@ -54,7 +54,7 @@ html {
 .btn {
   display: flex;
   width: 14rem;
-  height: 4rem; 
+  height: 4rem;
   color: #00e0d0;
   border: 1.5px solid #00e0d0;
   border-radius: 2px;
@@ -64,10 +64,10 @@ html {
   font-weight: bold;
   justify-content: center;
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   padding: 3rem 0;
@@ -79,11 +79,16 @@ html {
 }
 
 .logo > .logo-text {
-  background: -webkit-linear-gradient(0deg,#00e0d0 ,#00e0d0 ,rgb(115, 115, 255));
+  background: -webkit-linear-gradient(
+    0deg,
+    #00e0d0,
+    #00e0d0,
+    rgb(115, 115, 255)
+  );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-weight: 200;
   font-size: 3rem;
   padding-left: 1rem;
@@ -93,14 +98,14 @@ html {
 /* HEADER */
 /* ************************************ */
 
-header{
-    display: flex;
-    background-image: url("images/bgk-header.png");
-    background-size: cover;
-    background-position: center;
-    height: 670px;
-    color: white;
-    justify-content: center;
+header {
+  display: flex;
+  background-image: url("images/bgk-header.png");
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  color: white;
+  justify-content: center;
 }
 .special p {
   display: flex;
@@ -137,14 +142,14 @@ nav ul li {
   align-items: center;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', serif;
-    font-weight: 900;
-    font-size: 1.2rem;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-size: 1.2rem;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: #00e0d0;
   text-decoration: none;
 }
@@ -157,19 +162,19 @@ nav ul li a:hover{
   flex-direction: column;
   padding-top: 200px;
 }
-.hero h1{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
+.hero h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
 }
-.hero p{
-    text-align: center; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    font-weight: 100;
-  }
-.hero .btn{
-    align-items: center;
+.hero p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.hero .btn {
+  align-items: center;
 }
 
 /* ************************************ */
@@ -182,14 +187,18 @@ nav ul li a:hover{
   height: 400px;
   align-items: center;
   gap: 10px;
- 
 }
 
 .story-symbol {
-  width: 42%;
+  max-width: 42%;
   display: flex;
   justify-content: flex-end;
   padding: 50px;
+}
+
+.story-symbol > img {
+  width: 100%;
+  min-width: 100px;
 }
 
 .story-content {
@@ -213,13 +222,12 @@ nav ul li a:hover{
 
 .story-content p {
   padding-top: 10px;
-  width: 540px;
+  max-width: 540px;
   font-size: 1.4rem;
   font-family: Roboto;
   font-weight: 100;
   line-height: 18px;
 }
-
 
 /* ************************************ */
 /* WATCH */
@@ -277,11 +285,11 @@ nav ul li a:hover{
 .expertise-title h2 {
   font-size: 2.2rem;
   padding: 5px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .expertise-title p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -289,14 +297,13 @@ nav ul li a:hover{
 #seperator {
   display: flex;
   justify-content: center;
-  font-family: '', sans-serif;
+  font-family: "", sans-serif;
 }
 
 .cards-container {
   display: flex;
   flex-direction: column;
-  height: 85%; 
-  
+  height: 85%;
 }
 
 .expertise-first-row {
@@ -306,7 +313,7 @@ nav ul li a:hover{
   align-items: center;
 }
 
-.expertise-card:nth-child(-n+2){
+.expertise-card:nth-child(-n + 2) {
   border-right: 0.001px solid rgb(214, 209, 209);
 }
 
@@ -314,7 +321,7 @@ nav ul li a:hover{
   display: flex;
   height: 250px;
   align-items: center;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
 .expertise-card {
@@ -326,14 +333,15 @@ nav ul li a:hover{
   padding: 75px;
 }
 
-.expertise-card img{
+.expertise-card img {
   height: 50px;
   margin-bottom: 20px;
 }
 
-.expertise-card h3, .expertise-card p {
-  text-align: center; 
-  width:200px;
+.expertise-card h3,
+.expertise-card p {
+  text-align: center;
+  width: 200px;
   margin: 2px;
   font-family: Roboto;
 }
@@ -367,21 +375,21 @@ nav ul li a:hover{
 }
 
 .team-header h3 {
-  font-family: 'playfair-display';
+  font-family: "playfair-display";
   font-size: 1.8rem;
   color: white;
   text-transform: uppercase;
 }
 
 .team-header-text {
-  font-family: 'playfair-display';
-  color: white; 
+  font-family: "playfair-display";
+  color: white;
   font-size: 1.5rem;
   margin: 10px 0;
 }
 
 .team-underline {
-  color:rgba(255, 255, 255, 0.116);
+  color: rgba(255, 255, 255, 0.116);
   font-weight: bolder;
 }
 
@@ -423,14 +431,13 @@ nav ul li a:hover{
 }
 
 .jobtitle {
-  color: #8A8998;
+  color: #8a8998;
 }
 
 .team-footer p {
   color: white;
   margin-top: 40px;
 }
-
 
 /* ************************************ */
 /* CONTACT-CLIENT */
@@ -445,9 +452,9 @@ nav ul li a:hover{
   height: 500px;
   padding-top: 5rem;
 }
-.contact-client-headlines{
+.contact-client-headlines {
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2rem;
 }
 .contact {
@@ -461,13 +468,13 @@ nav ul li a:hover{
   margin-top: 2rem;
   height: 3rem;
   padding: 1rem;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
 }
 .contact #message {
   margin: 2rem 0;
   height: 16rem;
   text-align: left;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   padding: 1rem;
   resize: none;
 }
